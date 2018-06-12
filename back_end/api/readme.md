@@ -1,8 +1,5 @@
 # Flask boilerplate code
 
-![License](http://img.shields.io/:license-mit-blue.svg)
-
-I didn't really like the Flask starter projects I found searching the web. I really like Flask and I use it for quite a few projects so I decided to make a clean, readable, documented starter project. I didn't include any [makefile](https://www.wikiwand.com/en/Makefile) or [fabric](http://flask.pocoo.org/docs/0.10/patterns/fabric/) as I feel it imposes a choice to the user of this project, I rather keep things simple (even though the word is subject to interpretation).
 
 ## Features
 
@@ -13,23 +10,12 @@ I didn't really like the Flask starter projects I found searching the web. I rea
 - [x] "Functional" file structure.
 - [x] Python 3.x compliant.
 - [x] Asynchronous AJAX calls.
-- [ ] Application factory.
 - [x] Administration panel.
-- [ ] Static file bundling, automatic SCSS to CSS conversion and automatic minifying.
-- [ ] Websockets (for example for live chatting)
 - [x] Virtual environment example.
 - [x] Digital Ocean deployment example.
-- [ ] Tests.
 - [x] Logging.
-- [ ] Language selection.
-- [ ] Automatic API views.
-- [ ] API key generator.
 
-If you have any suggestions or want to help, feel free to drop me a line at <maxhalford25@gmail.com> or to create an issue.
-
-## Libraries
-
-### Backend
+### Libs
 
 - [Flask](http://flask.pocoo.org/), obviously.
 - [Flask-Login](https://flask-login.readthedocs.org/en/latest/) for the user accounts.
@@ -120,24 +106,3 @@ I have included a working Gmail account to confirm user email addresses and rese
 
 Read [this](http://flask.pocoo.org/docs/0.10/config/) for information on the possible configuration options.
 
-
-## Examples
-
-- [Screenshots](screenshots/)
-
-
-## Inspiration
-
-- [The Flask Mega-Tutorial](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world).
-- [Explore Flask](https://exploreflask.com/index.html).
-
-
-## Other possibilities
-
-- [flask-boilerplate](https://github.com/mjhea0/flask-boilerplate) by [Michael Herman](https://github.com/mjhea0).
-- [Flask-Foundation](https://github.com/JackStouffer/Flask-Foundation) by [Jack Stouffer](https://github.com/JackStouffer).
-- [fbone](https://github.com/imwilsonxu/fbone) by [Wilson Xu](https://github.com/imwilsonxu).
-
-## License
-
-The MIT License (MIT). Please see the [license file](LICENSE) for more information.
